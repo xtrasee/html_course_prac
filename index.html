@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Tracy Nguyen">
+        <meta name="description" content="This page contains my html practice">
+        <title>Welcome to the Little Taco Shop</title>
+        <link rel="icon" href="favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="style.css" type="text/css">
+    </head>
+
+    <body>
+        <article id="Top">
+            <h1>Welcome to The Little Taco Shop</h1>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#LTS"> About #LTS</a>
+                    </li>
+                    <li>
+                        <a href="#Menu">Our Menu</a>
+                    </li>
+                    <li>
+                        <a href="hours.html">Store hours</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact Us</a>
+                    </li>
+                </ul>
+            </nav>
+            <img src="/10_lesson_starter/img/tacos_and_drink_400x267.png" alt="image of tacos and a drink" width="400" height="267">
+            <figcaption>Tacos and a Drink</figcaption>
+        </article>
+        <hr>
+
+        <article id="LTS">
+            <h2>About LTS</h2>
+            <p>LTS was founded in 2022. Our shop was built from a love of tacos. *insert emojis* We hope our shop adds a unuique and interesting place to out town.</p>
+            <h3>Taco Trivia</h3>
+            <aside>
+                <details>
+                    <summary>When did tacos first appear in the United States?</summary>
+                    <p>
+                        Jeffrey M.Pilcher, taco historian and professor of history at the University of Minnesote, says the earliest mention of tacos in the United STates arre in a newspaper from <time datetime="1995">1905</time>
+                    </p>
+                </details>
+            </aside>
+        </article>
+
+        <article id="Menu">
+            <h2>Our Menu</h2>
+            <table>
+                <caption>Our Tacos</caption>
+                <thead>
+                    <tr>
+                        <th>Tacos</th>
+                        <th scope="col"><abbr title="Quantity">Qty</abbr></th>
+                        <th scope="col">Price</abbr></th> 
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row" rowspan="3">
+                            Crunchy
+                        </th>
+                        <td>1</td>
+                        <td>$1.50</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>$2.50</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>$3.25</td>
+                    </tr>
+                    <tr>
+                        <th scope="row" rowspan="3">Soft</th>
+                        <td>1</td>
+                        <td>$2.00</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>$3.50</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>$4.50</td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">Chips &amp; Salsa $2</td>
+                    </tr>
+                </tbody>
+            </table>
+        </article>
+
+        <!--footer-->
+        <a href="#Top"> Back to Top</a>
+        <hr>
+        Copyright &copy The Little Taco Shop
+    </body>
+</html>
